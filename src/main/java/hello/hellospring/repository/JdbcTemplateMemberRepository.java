@@ -8,10 +8,9 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
-import java.sql.*;
 import java.util.*;
 
-@Repository
+//@Repository
 public class JdbcTemplateMemberRepository implements MemberRepository {
     private final JdbcTemplate jdbcTemplate;
     public JdbcTemplateMemberRepository(DataSource dataSource) {
